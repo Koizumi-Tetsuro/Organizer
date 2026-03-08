@@ -1,11 +1,52 @@
+body{
+    text-align: center;
+}
+
+input{
+    font-size: 50px;
+}
+
 .next{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 100px;
+    right: 300px;
+    font-size: 40px;
 }
 
 .back{
     position: fixed;
-    bottom: 20px;
-    left: 20px;
+    bottom: 100px;
+    left: 300px;
+    font-size: 40px;
+}
+
+.title{
+    font-size: 50px;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+.subtitle{
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.menu{
+    font-size: 50px;
+    width: 10em;
+    height: 75px;
+    margin-top: 1em;
+}
+
+.inputarea{
+    font-size: 30px;
+    width: fit-content;
+    margin: auto;
+}
+
+#deadline{
+    width: 620px;
+}
+
+#home{
+    text-align: center;
 }

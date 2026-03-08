@@ -8,25 +8,34 @@
         <title>基本情報入力</title>
     </head>
 
-    <body>
-        <h1>基本情報入力</h1>
-        <p>
-            <label>飲み会名称</label>
-            <input type="text" id="partyname">
-        </p>
-        <p>
-            <label>幹事名</label>
-            <input type="text" id="organizer">
-        </p>
-        <p>
-            <label>開催場所</label>
-            <input type="text" id="place">
-        </p>
-        <p>
-            <label>回答期限</label>
-            <input type="date" id="deadline">
-        </p>
+    <body id="home">
+        <p class="title">幹事のための飲み会設定アプリ</p>
+        <p class="subtitle">基本情報入力</p>
 
+        <form class="inputarea">
+            <table>
+                <tr>
+                    <th><label>飲み会名称</label></th>
+                    <td> <input type="text" id="party"></td>
+                </tr>
+                  
+                <tr>
+                    <th><label>幹事名</label></th>
+                    <td><input type="text" id="organizer"></td>
+                </tr>
+        
+                <tr>
+                    <th><label>開催場所</label></th>
+                    <td><input type="text" id="place"></td>
+                </tr>
+        
+                <tr>
+                    <th><label>回答期限</label></th>
+                    <td><input type="date" id="deadline"></td>
+                </tr>
+            </table>
+        </form>
+        
         <p>
             <form action = "toppage.html">
                 <button type="submit" class="back">戻る</button>
