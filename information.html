@@ -4,10 +4,38 @@
 
     <head>
         <meta charset="jis utf-8">
-        <title>��{������</title>
+        <link rel="stylesheet" href="style.css">
+        <title>基本情報入力</title>
     </head>
 
     <body>
+        <h1>基本情報入力</h1>
+        <p>
+            <label>飲み会名称</label>
+            <input type="text" id="partyname">
+        </p>
+        <p>
+            <label>幹事名</label>
+            <input type="text" id="organizer">
+        </p>
+        <p>
+            <label>開催場所</label>
+            <input type="text" id="place">
+        </p>
+        <p>
+            <label>回答期限</label>
+            <input type="date" id="deadline">
+        </p>
 
+        <p>
+            <form action = "toppage.html">
+                <button type="submit" class="back">戻る</button>
+            </form>
+            <form action = "attendee.html">
+                <button type="submit" class="next">次へ</button>
+            </form>
+        </p>
+        
+        <script type = "module" src="./script.js"></script>
     </body>
 </html>
