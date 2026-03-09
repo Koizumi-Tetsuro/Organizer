@@ -2,15 +2,8 @@ body{
     text-align: center;
 }
 
-input{
+.informationInput{
     font-size: 50px;
-}
-
-.next{
-    position: fixed;
-    bottom: 100px;
-    right: 300px;
-    font-size: 40px;
 }
 
 .back{
@@ -20,11 +13,19 @@ input{
     font-size: 40px;
 }
 
+.next{
+    position: fixed;
+    bottom: 100px;
+    right: 300px;
+    font-size: 40px;
+}
+
 .title{
     font-size: 50px;
     margin-top: 2em;
     margin-bottom: 0;
 }
+
 .subtitle{
     font-size: 50px;
     margin-top: 0;
@@ -41,6 +42,41 @@ input{
     font-size: 30px;
     width: fit-content;
     margin: auto;
+}
+
+.attendee{
+    font-size: 30px;
+    width: 600px;
+}
+
+#attendeeslist{
+    width: 495px;
+    min-height: 250px;
+    position: fixed;
+    bottom: 270px;
+    right: 263px;
+}
+
+#delete{
+    position: fixed;
+    bottom: 215px;
+    right: 263px;
+    font-size: 30px;
+}
+
+#resistername{
+    position: fixed;
+    width: 8em;
+    bottom: 420px;
+    left: 263px;
+    font-size: 30px;
+}
+
+#resister{
+    position: fixed;
+    bottom: 365px;
+    left: 435px;
+    font-size: 30px;
 }
 
 #deadline{
