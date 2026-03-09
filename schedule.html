@@ -3,7 +3,7 @@
 <html lang = "ja">
 
     <head>
-        <meta charset="jis utf-8">
+        <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <title>候補日入力</title>
     </head>
@@ -12,13 +12,20 @@
         <p class="title">幹事のための飲み会設定アプリ</p>
         <p class="subtitle">候補日入力</p>
         
-        <p>
-            <form action = "attendee.html">
-                <button type="submit" class="back">戻る</button>
-            </form>
-            <form action = "toppage.html">
-                <button type="submit" class="next">完了</button>
-            </form>
-        </p>
+        <div class="attendee">
+            <label>候補日</label>
+            <input type="date" class="resisterinput" id="resisterdate">
+            <button id="resister">登録</button>
+
+            <select size="6" id="attendeeslist"></select>
+            <button id="delete">削除</button>
+        </div>
+
+        <form action = "attendee.html">
+            <button type="submit" class="back">戻る</button>
+        </form>
+        <form action = "toppage.html">
+            <button type="submit" class="next">完了</button>
+        </form>
     </body>
 </html>

@@ -64,7 +64,7 @@ body{
     font-size: 30px;
 }
 
-#resistername{
+.resisterinput{
     position: fixed;
     width: 8em;
     bottom: 420px;

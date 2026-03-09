@@ -3,7 +3,7 @@
 <html lang = "ja">
 
     <head>
-        <meta charset="jis utf-8">
+        <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <title>参加者入力</title>
     </head>
@@ -14,20 +14,18 @@
 
         <div class="attendee">
             <label>参加者</label>
-            <input type="text" id="resistername">
+            <input type="text" class="resisterinput" id="resistername">
             <button id="resister">登録</button>
 
             <select size="6" id="attendeeslist"></select>
             <button id="delete">削除</button>
         </div>
 
-        <p>
-            <form action = "information.html">
-                <button type="submit" class="back">戻る</button>
-            </form>
-            <form action = "schedule.html">
-                <button type="submit" class="next">次へ</button>
-            </form>
-        </p>
+        <form action = "information.html">
+            <button type="submit" class="back">戻る</button>
+        </form>
+        <form action = "schedule.html">
+            <button type="submit" class="next">次へ</button>
+        </form>
     </body>
 </html>
