@@ -3,84 +3,88 @@ body{
 }
 
 .informationInput{
-    font-size: 50px;
+    font-size: 6vh;
+    width: 38.4vw;
 }
 
 .back{
     position: fixed;
-    bottom: 100px;
-    left: 300px;
-    font-size: 40px;
+    bottom: 10vh;
+    left: 25vw;
+    font-size: 5vh;
 }
 
 .next{
     position: fixed;
-    bottom: 100px;
-    right: 300px;
-    font-size: 40px;
+    bottom: 10vh;
+    right: 25vw;
+    font-size: 5vh;
 }
 
 .title{
-    font-size: 50px;
-    margin-top: 2em;
+    font-size: 6vh;
+    margin-top: 5vh;
     margin-bottom: 0;
 }
 
 .subtitle{
-    font-size: 50px;
+    font-size: 6vh;
     margin-top: 0;
+    margin-bottom: 10vh;
 }
 
 .menu{
-    font-size: 50px;
+    font-size: 6vh;
     width: 10em;
-    height: 75px;
+    height: 9vh;
     margin-top: 1em;
 }
 
 .inputarea{
-    font-size: 30px;
+    font-size: 4vh;
     width: fit-content;
     margin: auto;
 }
 
 .attendee{
-    font-size: 30px;
-    width: 600px;
+    font-size: 4vh;
+    position: fixed;
+    left: 21vw;
+    top: 35vh;
 }
 
 #attendeeslist{
-    width: 495px;
-    min-height: 250px;
+    width: 37vw;
+    min-height: 35vh;
     position: fixed;
-    bottom: 270px;
-    right: 263px;
+    top: 30vh;
+    right: 21vw;
 }
 
 #delete{
     position: fixed;
-    bottom: 215px;
-    right: 263px;
-    font-size: 30px;
+    top: 66vh;
+    right: 21vw;
+    font-size: 4vh;
 }
 
 .resisterinput{
     position: fixed;
-    width: 8em;
-    bottom: 420px;
-    left: 263px;
-    font-size: 30px;
+    width: 19vw;
+    bottom: 53vh;
+    left: 21vw;
+    font-size: 4.5vh;
 }
 
 #resister{
     position: fixed;
-    bottom: 365px;
-    left: 435px;
-    font-size: 30px;
+    bottom: 45vh;
+    right: 59.5vw;
+    font-size: 4vh;
 }
 
 #deadline{
-    width: 620px;
+    width: 38.7vw;
 }
 
 #home{
