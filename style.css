@@ -53,7 +53,7 @@ body{
     top: 35vh;
 }
 
-#attendeeslist{
+.selectbox{
     width: 37vw;
     min-height: 35vh;
     position: fixed;
