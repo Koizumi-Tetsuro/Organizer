@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="test.css">
+    <title>飲み会幹事のための飲み会設定アプリ</title>
+</head>
+
+<body id="home">
+    <p class="title">幹事のための飲み会設定アプリ</p>
+    <p class="subtitle">飲み会設定</p>
+
+    <form class="inputArea">
+        <table>
+            <tr>
+                <th><label>飲み会名称</label></th>
+                <td> <input type="text" class="informationInput" id="party"></td>
+            </tr>
+
+            <tr>
+                <th><label>幹事名</label></th>
+                <td><input type="text" class="informationInput" id="organizer"></td>
+            </tr>
+
+            <tr>
+                <th><label>開催場所</label></th>
+                <td><input type="text" class="informationInput" id="place"></td>
+            </tr>
+
+            <tr>
+                <th><label>回答期限</label></th>
+                <td><input type="date" class="informationInput" id="deadline"></td>
+            </tr>
+        </table>
+    </form>
+
+    <div class="separator"></div>
+
+    <div class="columnStyle">
+        <div class="left">
+            <label>参加者</label>
+            <input type="text" class="resisterInput" id="attendeeName">
+            <button id="nameResister">登録</button>
+        </div>
+
+        <div class="right">
+            <select size="6" class="selectBox" id="attendeesList"></select>
+            <button id="nameDelete">削除</button>
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="columnStyle">
+        <div class="left">
+            <label>候補日</label>
+            <input type="date" class="resisterInput" id="inputDate">
+            <button id="dateResister">登録</button>
+        </div>
+
+        <div class="right">
+            <select size="6" class="selectBox" id="dateList"></select>
+            <button id="dateDelete">削除</button>
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <script type = "module" src="./test.js"></script>
+</body>
+
+<footer>
+    <div class="footerButton">
+        <div class="left">
+        <form action="testToppage.html">
+            <button type="submit" class="back">戻る</button>
+        </form>
+        </div>
+    
+        <div class="right">
+        <form action="testToppage.html">
+            <button type="submit" class="next">入力完了</button>
+        </form>
+        </div>
+    </div>
+    
+</footer>
+
+</html>
