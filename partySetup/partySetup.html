@@ -1,0 +1,102 @@
+<!-- 飲み会設定入力画面 -->
+
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./partySetup.css">
+    <title>飲み会幹事のための飲み会設定アプリ</title>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <h1 class="title">幹事のための飲み会設定アプリ</h1>
+        <h2 class="subtitle">飲み会設定</h2>
+    </header>
+
+    <main>
+        <!-- 基本情報 -->
+        <h3 class="sectionTitle">基本情報</h3>
+        
+        <form class="form">
+
+            <div class="formRow">
+                <label for="party">飲み会名称</label>
+                <input type="text" id="party" class="input">
+            </div>
+
+            <div class="formRow">
+                <label for="organizer">幹事名</label>
+                <input type="text" id="organizer" class="input">
+            </div>
+
+            <div class="formRow">
+                <label for="place">開催場所</label>
+                <input type="text" id="place" class="input">
+            </div>
+
+            <div class="formRow">
+                <label for="deadline">回答期限</label>
+                <input type="date" id="deadline" class="input">
+            </div>
+
+        </form>
+
+        <hr>
+
+        <!-- 参加者 -->
+        <h3 class="sectionTitle">参加者</h3>
+
+        <form class="list">
+
+            <div class="listContainer">
+                <input type="text" id="attendeeName" class="input" placeholder="名前を入力">
+                <button type="button" id="nameResister">登録</button>
+            </div>
+
+            <div class="listArea">
+                <select id="attendeesList" size="6" class="selectBox"></select>
+                <button type="button" id="nameDelete">削除</button>
+            </div>
+
+        </form>
+
+        <hr>
+
+        <!-- 候補日 -->
+        <h3 class="sectionTitle">候補日</h3>
+
+        <form class="list">
+            
+            <div class="listContainer">
+                <div class="inputArea">
+                    <input type="date" id="inputDate" class="input">
+                    <button type="button" id="dateResister">登録</button>
+                </div>
+
+                <div class="listArea">
+                    <select id="dateList" size="6" class="selectBox"></select>
+                    <button type="button" id="dateDelete">削除</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <form action="../Top/toppage.html">
+            <button type="submit" class="back">戻る</button>
+        </form>
+
+        <form action="../Top/toppage.html">
+            <button type="submit" class="next">入力完了</button>
+        </form>
+    </footer>
+
+    <script type="module" src="./partySetup.js"></script>
+
+</body>
+</html>

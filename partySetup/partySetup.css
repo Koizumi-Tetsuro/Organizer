@@ -1,0 +1,125 @@
+/* 全体 */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* ヘッダー */
+.title {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+/* フォーム全体 */
+.form {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* セクションタイトル */
+.sectionTitle {
+    font-size: 1.3rem;
+    margin: 2rem 0 1rem;
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 1行 */
+.formRow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+/* ラベル */
+.formRow label {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+/* 入力 */
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* 区切り線 */
+hr {
+    margin: 2rem 0;
+}
+
+/* リスト共通 */
+.list {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* 横並び */
+.listContainer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* 入力側 */
+.inputArea {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 40%;
+}
+
+/* 一覧側 */
+.listArea {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 60%;
+}
+
+/* セレクトボックス */
+.selectBox {
+    width: 100%;
+    height: 200px;
+    font-size: 1rem;
+}
+
+/* ボタン */
+button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* フッター */
+.footer {
+    margin-top: 2rem;
+}
+
+.footerButtons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* 戻る・次へ */
+.back, .next {
+    width: 45%;
+    font-size: 1rem;
+    padding: 0.7rem;
+}
